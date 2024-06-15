@@ -1,0 +1,20 @@
+
+<section>
+    <img src="background.jpg" alt="Background" class="background-image">
+    <div class="profile-container">
+        <h1 class="profile-title">Profile</h1>
+        <div class="row-container">
+            <img class="profile-image" src="userIcon.svg" alt="Profile">
+            
+            <div class="verticle-line"></div>
+            <div class="details-container">
+                <input class="name-show" type="text" [value]="profileName" placeholder="Profile Name" disabled>
+                <select class="button">
+                    <option value="1">English</option>
+                    <option value="2">Spanish</option>
+                </select>
+                <button class="button" (click)="onLogout()">Log Out</button>
+            </div>
+        </div>
+    </div>
+</section>

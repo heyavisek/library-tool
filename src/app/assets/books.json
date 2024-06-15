@@ -1,0 +1,163 @@
+
+[
+    {
+        "id": 1,
+        "image": "https://m.media-amazon.com/images/I/718Z4oInFOL._AC_UF1000,1000_QL80_.jpg",
+        "name": "Book 1",
+        "author": "Author 1",
+        "available": 10,
+        "total": 12
+    },
+    {
+        "id": 2,
+        "image": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471157936/the-boy-with-one-name-9781471157936_hr.jpg",
+        "name": "Book 2",
+        "author": "Author 2",
+        "available": 5,
+        "total": 7
+    },
+    {
+        "id": 3,
+        "image": "https://m.media-amazon.com/images/I/51TMfi+WCxL._AC_UF1000,1000_QL80_.jpg",
+        "name": "Book 3",
+        "author": "Author 3",
+        "available": 3,
+        "total": 5
+    },
+    {
+        "id": 4,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 4",
+        "author": "Author 4",
+        "available": 8,
+        "total": 11
+    },
+    {
+        "id": 5,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 5",
+        "author": "Author 5",
+        "available": 2,
+        "total": 6
+    },
+    {
+        "id": 6,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 6",
+        "author": "Author 6",
+        "available": 7,
+        "total": 9
+    },
+    {
+        "id": 7,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 7",
+        "author": "Author 7",
+        "available": 4,
+        "total": 10
+    },
+    {
+        "id": 8,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 8",
+        "author": "Author 8",
+        "available": 9,
+        "total": 13
+    },
+    {
+        "id": 9,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 9",
+        "author": "Author 9",
+        "available": 6,
+        "total": 8
+    },
+    {
+        "id": 10,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 10",
+        "author": "Author 10",
+        "available": 1,
+        "total": 4
+    },
+    {
+        "id": 11,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 11",
+        "author": "Author 11",
+        "available": 3,
+        "total": 7
+    },
+    {
+        "id": 12,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 12",
+        "author": "Author 12",
+        "available": 5,
+        "total": 9
+    },
+    {
+        "id": 13,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 13",
+        "author": "Author 13",
+        "available": 2,
+        "total": 6
+    },
+    {
+        "id": 14,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 14",
+        "author": "Author 14",
+        "available": 8,
+        "total": 10
+    },
+    {
+        "id": 15,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 15",
+        "author": "Author 15",
+        "available": 7,
+        "total": 9
+    },
+    {
+        "id": 16,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 16",
+        "author": "Author 16",
+        "available": 4,
+        "total": 8
+    },
+    {
+        "id": 17,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 17",
+        "author": "Author 17",
+        "available": 9,
+        "total": 12
+    },
+    {
+        "id": 18,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 18",
+        "author": "Author 18",
+        "available": 6,
+        "total": 10
+    },
+    {
+        "id": 19,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 19",
+        "author": "Author 19",
+        "available": 1,
+        "total": 5
+    },
+    {
+        "id": 20,
+        "image": "https://m.media-amazon.com/images/I/51LYGkP0KQL.jpg",
+        "name": "Book 20",
+        "author": "Author 20",
+        "available": 3,
+        "total": 6
+    }
+]

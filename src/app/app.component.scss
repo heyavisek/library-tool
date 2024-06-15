@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 0px;
+    border-bottom: 1px solid var(--border-color);
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+a {
+    color: var(--text-color);
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-links {
+    padding: 10px;
+}
+.nav-links:hover{
+    color: red;
+    transition-duration: 150ms;
+}
+
+.main-logo {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border:  1px solid var(--text-color);
+    background-color: var(--box-bg-color);
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+

@@ -1,0 +1,115 @@
+section {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--bg-color);
+    justify-content: center;
+    align-items: center;
+}
+.background-image {
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    filter: blur(var(--blur-density));
+}
+
+.profile-container {
+    display: flex;
+    width: max-content;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    border: 1px solid var(--border-color);
+    background-color: var(--box-bg-color);
+    padding: 2px 40px 20px 40px;
+    padding: auto;
+}
+.row-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid var(--text-color);
+    background-color: var(--box-bg-color);
+    margin: 0;
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 768px){
+    .row-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        place-self: center;
+        justify-self: center;
+    }
+
+    .verticle-line {
+        visibility: hidden;
+    }
+}
+
+.verticle-line {
+    visibility: visible;
+    border-left: 2px solid var(--border-color);
+    height: 100%;
+    margin: 0 20px;
+}
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.name-show {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    border-bottom: 2px solid var(--border-color);
+    border-radius: 10px;
+    font-size: large;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+}
+
+.profile-title{
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px 0 20 0;
+    padding: 0;
+}
+
+
+.button{
+    color: white;
+    background-color: var(--box-bg-color);
+    border: 0;
+    border-radius: 9999px;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-weight: normal;
+    font-size: medium;
+    outline: none;
+}
+
+.button:hover{
+    background-color: #00000088;
+    cursor: pointer;
+}

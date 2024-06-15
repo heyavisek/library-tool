@@ -1,0 +1,33 @@
+
+<section>
+    <img src="background.jpg" alt="Background" class="background-image">
+    <div class="home-container" *ngIf="authenticated; else welcomeTemplate">
+        <h1 class="home-title">Book Inventory</h1>
+        <div class="search-field">
+            <input class="input-box" type="text" [(ngModel)]="inputField" placeholder="Search book by Name or Author">
+            <img class="book-search-button" (click)="onSearch()" src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png" alt="Search book" />
+        </div>
+        <div class="book-holder">
+            <div  *ngFor="let book of filteredBooks">
+                <div class="book-card" (click)="onBookClick(book)">
+                    <img class="book-image" [src]="book.image" alt="book.name" />
+                    <div class="book-description">
+                        <p id="book-title">{{book.name}}</p>
+                        <p id="book-author">{{book.author}}</p>
+                        <p id="book-available">Available: {{book.available}}</p>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+    
+    <ng-template #welcomeTemplate>
+        <h1 class="home-title">Welcome to LibraryTool</h1>
+    </ng-template>
+
+</section>
+

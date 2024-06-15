@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --border-color: #CCCCCC;
+    --background-color: white;
+    --text-color : #333333;
+    --main-color : rgb(44, 118, 255);
+    --box-bg-color : #00000033;
+    --blur-density : 30px;
+}
+
+:root.dark-theme{
+    --border-color: #333333;
+    --background-color: #333333;
+    --text-color: white;
+    --main-color : rgb(44, 118, 255);
+    --box-bg-color : #00000055;
+}
+

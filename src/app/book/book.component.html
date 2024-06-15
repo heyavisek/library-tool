@@ -1,0 +1,20 @@
+
+<section>
+    <img src="background.jpg" alt="Background" class="background-image">
+    <div class="book-container">
+        <h1 class="book-title">Book Menu</h1>
+        <div class="row-container">
+            <div class="book-card">
+                <img class="book-image" [src]="book.image" alt="book.name" />
+                <p id="book-title">{{book.name}}</p>
+            </div>
+            <div class="verticle-line"></div>
+            <div class="menu-container">
+                <p id="book-author">Author: {{book.author}}</p>
+                <p id="book-available">Available: {{book.available}}</p>
+                <button class="button" (click)="onBookBorrow()">Borrow</button>
+                <button class="button" (click)="onBookReturn()">Return</button>
+            </div>
+        </div>
+    </div>
+</section>

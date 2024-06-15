@@ -1,0 +1,12 @@
+
+<section>
+    <img src="background.jpg" alt="Background" class="background-image">
+    <div class="form-container ">
+        <h1 class="title" id="title">Sign In</h1>
+        <form class="form">
+            <input class="form-input-field" [(ngModel)]="username" type="email" id="email" name="email" required placeholder="Email">
+            <input class="form-input-field" [(ngModel)]="password" type="password" id="password" name="password" required placeholder="Password">
+            <button class="button" (click)="onLogin()" type="submit">Sign In</button>
+        </form>
+    </div>
+</section>
